@@ -1,0 +1,9 @@
+module(
+  name = "bazel_playground",
+  version = "1.0",
+)
+
+bazel_dep(
+  name = "rules_cc",
+  version = "0.2.14",
+)
